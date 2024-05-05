@@ -1,0 +1,150 @@
+
+/* TABLET STYLES*/
+
+@media only screen and (min-width: 768px) 
+{
+
+.container {
+    max-width: 768px;
+}
+
+.logo{
+    margin-right: 120px;
+}
+.menu-toggle-burger{
+display: none;
+}
+
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+    margin-right: auto;
+}
+.address {
+    display: block;
+    color: var(--slate);
+    font-style: normal;
+    padding: 0;
+}
+.address-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.address-link{
+    padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: var(--slate);
+}
+
+
+/* region Hero*/
+.hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/hero-bg_tab@1x.jpg);
+}
+
+@media (min-resolution: 192dpi) {
+.hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)), url(../images/hero-bg_tab@2x.jpg);
+    }
+}
+
+
+.hero-text {
+    max-width: 496px;
+    margin-bottom: 36px;
+
+    font-size: 56px;
+    line-height: 107%;
+    text-transform: none;
+}
+
+.features-section {
+    max-width: 768px;
+}
+.features-section-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+}
+.features-section-h {
+    text-align: left;
+}
+.features-section-p {
+    max-width: 356px;
+}
+
+
+/* region Team*/
+.team-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+/* Customers*/
+.section-customers-items {
+    gap: 24px;
+}
+.customers-link {
+    width: 168px;
+    height: 88px;
+}
+
+/* Footer*/
+.page-footer-flex {
+    align-items: flex-start;
+    padding-left: 108px;
+    gap: 72px;
+}
+
+.page-footer-container-top {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 24px;
+}
+
+.page-logo-footer-container {
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+.page-logo-footer-description {
+    max-width: 264px;
+}
+
+.network-footer-container {
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+.form-footer-container-text {
+    text-align: left;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.footer-input {
+    width: 264px;
+}
+
+
+
+}
